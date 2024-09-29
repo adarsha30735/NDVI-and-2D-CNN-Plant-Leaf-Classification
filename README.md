@@ -23,7 +23,6 @@ This project aims to classify plant leaves into healthy and unhealthy categories
 - Use transfer learning on AlexNet for classification of diseased and healthy plant leaves.
 - Integrate NDVI and CNN classification in a MATLAB App Designer interface.
 
-## Script Code
 
 
 ### NDVI Classification Using MATLAB App Designer
@@ -43,7 +42,7 @@ The MATLAB App Designer interface allows users to input two sets of images (NIR 
 
 The DL\_classifier.m script implements a deep learning-based classification using AlexNet. It trains a model on plant leaf images and classifies them as healthy or diseased.
 
-## Dataset
+## Download Dataset
 
 The following species were considered for classification, each having images of healthy and unhealthy leaves:
 
