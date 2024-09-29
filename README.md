@@ -101,6 +101,7 @@ The classification accuracy and other relevant details are discussed above.
 
 2. Chouhan, Siddharth Singh, Uday Pratap Singh, Ajay Kaul, and Sanjeev Jain. "A data repository of leaf images: Practice towards plant conservation with plant pathology." In *2019 4th International Conference on Information Systems and Computer Networks (ISCON)*, IEEE, 2019, pp. 700-707.
 3. https://www.mathworks.com/help/wavelet/ug/classify-time-series-using-wavelet-analysis-and-deep-learning.html
+4. Chamara, N. (2021). Development of an Internet of Things (IoT) Enabled Novel Wireless Multi Sensor Network for Infield Crop Monitoring.
 
 
 ## Script Code
