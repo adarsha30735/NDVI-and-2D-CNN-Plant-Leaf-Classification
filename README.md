@@ -1,5 +1,5 @@
 # NDVI and 2D-CNN Plant Leaf Classification
-
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 This repository contains MATLAB implementations for classifying plant leaves based on NDVI and deep learning using 2D-CNN (AlexNet). It includes MATLAB App Designer integration, image pre-processing for training, and classification of healthy and diseased plant leaves.
 
 ## Table of Contents
