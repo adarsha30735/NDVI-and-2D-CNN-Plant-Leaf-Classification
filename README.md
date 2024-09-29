@@ -123,7 +123,7 @@ Adarsha. (2024). *NDVI-and-2D-CNN-Plant-Leaf-Classification*. GitHub. https://gi
 
 
 #### Full Code:
-
+```matlab
 DatasetPath = ('E:\\UNL\\semester 1\\CSI 8300 cv and ıp\\PA_B\\leaf\\Test\\Pongamia Pinnata (P7)');
 images = imageDatastore(DatasetPath, 'IncludeSubfolders', true, 'LabelSource', 'foldernames');
 numTrainFiles = 230;
