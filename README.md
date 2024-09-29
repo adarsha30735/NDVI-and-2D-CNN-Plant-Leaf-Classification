@@ -43,12 +43,22 @@ The MATLAB App Designer interface allows users to input two sets of images (NIR 
 
 The DL\_classifier.m script implements a deep learning-based classification using AlexNet. It trains a model on plant leaf images and classifies them as healthy or diseased.
 
-Dataset
--------
+## Dataset
 
 The following species were considered for classification, each having images of healthy and unhealthy leaves:
 
-Species NameHealthy LeavesUnhealthy LeavesImage Size (pixels)Alstonia Scholaris179179227 x 227Mango170170227 x 227Lemon159159227 x 227Guava142142227 x 227Jamun279279227 x 227Pomegranate272272227 x 227Pongamia Pinnata276276227 x 227
+| Species Name           | Healthy Leaves | Unhealthy Leaves | Image Size (pixels) |
+|------------------------|----------------|------------------|---------------------|
+| Alstonia Scholaris     | 179            | 179              | 227 x 227           |
+| Mango                  | 170            | 170              | 227 x 227           |
+| Lemon                  | 159            | 159              | 227 x 227           |
+| Guava                  | 142            | 142              | 227 x 227           |
+| Jamun                  | 279            | 279              | 227 x 227           |
+| Pomegranate            | 272            | 272              | 227 x 227           |
+| Pongamia Pinnata       | 276            | 276              | 227 x 227           |
+
+Source: Chouhan, Siddharth Singh, Uday Pratap Singh, Ajay Kaul, and Sanjeev Jain. "A data repository of leaf images: Practice towards plant conservation with plant pathology." In *2019 4th International Conference on Information Systems and Computer Networks (ISCON)*, IEEE, 2019, pp. 700-707.
+
 
 Results and Analyses
 --------------------
@@ -68,6 +78,15 @@ The accuracy results for the classification of each species are summarized below
 | Pongamia Pinnata        | 96.7         |
 
 From the results, we can conclude that the combination of vegetation index (NDVI) and artificial intelligence techniques like 2D-CNN can effectively classify healthy and diseased plant leaves.
+
+
+
+
+### References
+
+1. Brown, M. and Süsstrunk, S., “Multi-spectral SIFT for scene category recognition.” In *CVPR 2011*, IEEE, 2011, pp. 177-184.
+
+2. Chouhan, Siddharth Singh, Uday Pratap Singh, Ajay Kaul, and Sanjeev Jain. "A data repository of leaf images: Practice towards plant conservation with plant pathology." In *2019 4th International Conference on Information Systems and Computer Networks (ISCON)*, IEEE, 2019, pp. 700-707.
 
 
 
