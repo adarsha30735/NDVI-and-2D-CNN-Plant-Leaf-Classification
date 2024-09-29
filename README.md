@@ -78,7 +78,13 @@ The accuracy results for the classification of each species are summarized below
 
 From the results, we can conclude that the combination of vegetation index (NDVI) and artificial intelligence techniques like 2D-CNN can effectively classify healthy and diseased plant leaves.
 
+## Jamun Result
 
+Here is the result for the Jamun species classification:
+
+![Jamun Result](jamunresult.jpeg)
+
+The classification accuracy and other relevant details are discussed above.
 
 
 ### References
