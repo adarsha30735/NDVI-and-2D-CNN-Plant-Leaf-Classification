@@ -36,7 +36,13 @@ The MATLAB App Designer interface allows users to input two sets of images (NIR 
 *   Generate NDVI images.
     
 *   Classify vegetation based on the NDVI values.
-    
+
+## NDVI Application Developed in MATLAB 
+
+Here is the result for the NDVI classification:
+
+![Result](ndviex1.jpg)
+
 
 ### 2D-CNN Classification Using AlexNet
 
