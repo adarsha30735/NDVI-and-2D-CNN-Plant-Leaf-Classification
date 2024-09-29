@@ -114,6 +114,13 @@ The `Image_Resizev2.m` script resizes large plant leaf images to a resolution of
 The DL\_classifier.m script implements a deep learning-based classification using AlexNet. It trains a model on plant leaf images and classifies them as healthy or diseased.
 
 
+## Citing This Repository
+
+If you find this repository useful for your research, please cite it as follows:
+
+Adarsha. (2024). *NDVI-and-2D-CNN-Plant-Leaf-Classification*. GitHub. https://github.com/adarsha30735/NDVI-and-2D-CNN-Plant-Leaf-Classification
+
+
 #### Full Code:
 ```matlab
 DatasetPath = ('E:\\UNL\\semester 1\\CSI 8300 cv and ıp\\PA_B\\leaf\\Test\\Pongamia Pinnata (P7)');
