@@ -82,7 +82,7 @@ From the results, we can conclude that the combination of vegetation index (NDVI
 
 Here is the result for the Jamun species classification:
 
-![Jamun Result](jamunresult.jpeg)
+![Jamun Result](jamunresult.jpg)
 
 The classification accuracy and other relevant details are discussed above.
 
