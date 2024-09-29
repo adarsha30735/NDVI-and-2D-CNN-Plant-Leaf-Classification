@@ -63,8 +63,9 @@ The following species were considered for classification, each having images of 
 | Pomegranate            | 272            | 272              | 227 x 227           |
 | Pongamia Pinnata       | 276            | 276              | 227 x 227           |
 
-Source: Chouhan, Siddharth Singh, Uday Pratap Singh, Ajay Kaul, and Sanjeev Jain. "A data repository of leaf images: Practice towards plant conservation with plant pathology." In *2019 4th International Conference on Information Systems and Computer Networks (ISCON)*, IEEE, 2019, pp. 700-707.
+Dataset source: Chouhan, Siddharth Singh, Uday Pratap Singh, Ajay Kaul, and Sanjeev Jain. "A data repository of leaf images: Practice towards plant conservation with plant pathology." In *2019 4th International Conference on Information Systems and Computer Networks (ISCON)*, IEEE, 2019, pp. 700-707.
 
+Each image was resized to fit CNN architecture. Code to resize pictures is also provided.
 
 Results and Analyses
 --------------------
