@@ -106,6 +106,10 @@ The classification accuracy and other relevant details are discussed above.
 
 The `Image_Resizev2.m` script resizes large plant leaf images to a resolution of 227 x 227 pixels, making them suitable for input into AlexNet for 2D-CNN classification.
 
+### 2D-CNN Classification Using AlexNet
+
+The DL\_classifier.m script implements a deep learning-based classification using AlexNet. It trains a model on plant leaf images and classifies them as healthy or diseased.
+
 
 #### Full Code:
 ```matlab
