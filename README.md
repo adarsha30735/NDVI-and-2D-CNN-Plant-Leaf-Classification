@@ -43,8 +43,42 @@ The MATLAB App Designer interface allows users to input two sets of images (NIR 
 
 The DL\_classifier.m script implements a deep learning-based classification using AlexNet. It trains a model on plant leaf images and classifies them as healthy or diseased.
 
-#### Full Code:
+Dataset
+-------
 
+The following species were considered for classification, each having images of healthy and unhealthy leaves:
+
+Species NameHealthy LeavesUnhealthy LeavesImage Size (pixels)Alstonia Scholaris179179227 x 227Mango170170227 x 227Lemon159159227 x 227Guava142142227 x 227Jamun279279227 x 227Pomegranate272272227 x 227Pongamia Pinnata276276227 x 227
+
+Results and Analyses
+--------------------
+
+### Summary of Deep Learning Classification Accuracy
+
+The accuracy results for the classification of each species are summarized below:
+
+| Species Name            | Accuracy (%) |
+|-------------------------|--------------|
+| Alstonia Scholaris      | 91.4         |
+| Mango                   | 100          |
+| Lemon                   | 82.7         |
+| Guava                   | 100          |
+| Jamun                   | 97.8         |
+| Pomegranate             | 97.1         |
+| Pongamia Pinnata        | 96.7         |
+
+From the results, we can conclude that the combination of vegetation index (NDVI) and artificial intelligence techniques like 2D-CNN can effectively classify healthy and diseased plant leaves.
+
+
+
+
+### Image Resizing
+
+The `Image_Resizev2.m` script resizes large plant leaf images to a resolution of 227 x 227 pixels, making them suitable for input into AlexNet for 2D-CNN classification.
+
+
+#### Full Code:
+```matlab
 DatasetPath = ('E:\\UNL\\semester 1\\CSI 8300 cv and ıp\\PA_B\\leaf\\Test\\Pongamia Pinnata (P7)');
 images = imageDatastore(DatasetPath, 'IncludeSubfolders', true, 'LabelSource', 'foldernames');
 numTrainFiles = 230;
@@ -70,30 +104,6 @@ accuracy = sum(Ypred == YValidation) / numel(YValidation);
 % Plot confusion matrix
 plotconfusion(YValidation, Ypred);
 
-Dataset
--------
-
-The following species were considered for classification, each having images of healthy and unhealthy leaves:
-
-Species NameHealthy LeavesUnhealthy LeavesImage Size (pixels)Alstonia Scholaris179179227 x 227Mango170170227 x 227Lemon159159227 x 227Guava142142227 x 227Jamun279279227 x 227Pomegranate272272227 x 227Pongamia Pinnata276276227 x 227
-
-Results and Analyses
---------------------
-
-### Summary of Deep Learning Classification Accuracy
-
-The accuracy results for the classification of each species are summarized below:
-
-Species NameAccuracy (%)Alstonia Scholaris91.4Mango100Lemon82.7Guava100Jamun97.8Pomegranate97.1Pongamia Pinnata96.7
-
-From the results, we can conclude that the combination of vegetation index (NDVI) and artificial intelligence techniques like 2D-CNN can effectively classify healthy and diseased plant leaves.
-
-
-
-
-### Image Resizing
-
-The `Image_Resizev2.m` script resizes large plant leaf images to a resolution of 227 x 227 pixels, making them suitable for input into AlexNet for 2D-CNN classification.
 
 #### Full Code:
 ```matlab
