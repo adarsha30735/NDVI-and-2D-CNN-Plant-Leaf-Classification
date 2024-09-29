@@ -41,7 +41,7 @@ The MATLAB App Designer interface allows users to input two sets of images (NIR 
 
 Here is the result for the NDVI classification:
 
-![Result](ndviex1.JPG)
+![Result](NDVIEX1.JPG)
 
 
 ### 2D-CNN Classification Using AlexNet
