@@ -38,7 +38,7 @@ The MATLAB App Designer interface allows users to input two sets of images (NIR 
 *   Classify vegetation based on the NDVI values.
 
 ## NDVI Application Developed in MATLAB 
-The NIR_RGB.m script implements a NDVI calculator.
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) The NIR_RGB.m script implements a NDVI calculator.
 
 Here is the result for the NDVI classification:
 
@@ -160,4 +160,4 @@ for i = 1 : length(current_folder)
     j = imresize(Img, [227, 227], 'bilinear');
     imwrite(j, fullfile(output_address, current_image));
 end
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
