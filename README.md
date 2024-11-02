@@ -39,7 +39,7 @@ The MATLAB App Designer interface allows users to input two sets of images (NIR 
 *   Classify vegetation based on the NDVI values.
 
 ## NDVI Application Developed in MATLAB 
- The NIR_RGB.m script implements a NDVI calculator.
+ The NIR_RGB.m script implements an NDVI calculator.
 
 Here is the result for the NDVI classification:
 
