@@ -50,7 +50,7 @@ Here is the result for the NDVI classification:
 
 The DL\_classifier.m script implements a deep learning-based classification using AlexNet. It trains a model on plant leaf images and classifies them as healthy or diseased.
 
-![Result](DL.PNG)
+![Result](DL.png)
 
 ## Dataset
 
